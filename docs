@@ -1,0 +1,18 @@
+## Video 1: Local development setup: ~refered by `Philipp Burnenberg` via YT
+
+- Find Spark version & documentation
+- Select sbt, Scala & JDK version
+- Create IntelliJ project
+- Add dependencies
+
+## Creating an IntelliJ project
+
+- Langugage Scala
+- Build System is SBT
+- JDK is 17.0.8
+- sbt is 1.9.6 (use latest)
+- Scala use 2.13.12
+- Package prefix: de.name.content 
+- Also click on Add some sample code
+- [MVN_REPOSITORY] => 'https://mvnrepository.com/artifact/org.apache.spark/spark-core' paste -> build.sbt
+-   |--> 'spark-sql' 
