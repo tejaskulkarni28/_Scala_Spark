@@ -15,4 +15,12 @@
 - Package prefix: de.name.content 
 - Also click on Add some sample code
 - [MVN_REPOSITORY] => 'https://mvnrepository.com/artifact/org.apache.spark/spark-core' paste -> build.sbt
--   |--> 'spark-sql' 
+-   |--> 'spark-sql'
+
+## Video 2: First spark application
+
+- Download example data (Kaggle)
+- Instantiate a standalone SparkSession
+- Read csv file with Options
+- Show Dataframe
+- Add JVM option `--add-exports java.base/sun.nio.ch=ALL-UNNAMED`
